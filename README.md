@@ -1,41 +1,58 @@
-# MAX BEAUTY — Luxury Beauty Salon Website
+# MAX BEAUTY
 
-## What is included
+A modern and responsive luxury beauty salon website built with **React** and **Vite**.
 
-- React + Vite
-- Responsive luxury beauty salon UI
-- Home, About, Services, Gallery and Contact sections
-- Mobile navigation
-- Mouse-follow 3D tilt cards
-- Gallery filters
-- Appointment form interaction
-- Dedicated `public/images/` folder
-- `public/images/images.json` with online image sources
-- Well-formatted, multi-line source code
-- No Tailwind dependency required, reducing setup problems
+## ✨ Project Overview
 
-## Run
+MAX BEAUTY is a premium salon website designed with a clean, elegant and responsive interface. The website includes salon information, services, gallery, and appointment/contact sections.
 
-```bash
-npm install
-npm run dev
-```
+The design uses a warm ivory background with espresso text and champagne-gold accents to create a luxury beauty brand experience.
 
-## Validate
+## 🛠️ Technologies Used
 
-```bash
-npm run build
-npm run preview
-```
+- React
+- Vite
+- JavaScript
+- JSX
+- CSS3
+- Lucide React
+- Responsive Web Design
 
-## Real online photography
+## 📁 Project Structure
 
-The image source pages are documented in `public/images/images.json`.
-The current ZIP contains local visual fallback assets so the website renders reliably
-even without internet image loading. Replace the SVG files with the corresponding
-downloaded photographs if you want the actual photos bundled locally.
-
-## Important
-
-The appointment form is front-end demo behavior. It shows a confirmation message and
-does not send bookings to a database or WhatsApp until a backend is connected.
+```text
+MAX-BEAUTY/
+│
+├── public/
+│   └── images/
+│       └── images.json
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── SectionTitle.jsx
+│   │   └── TiltCard.jsx
+│   │
+│   ├── data/
+│   │   └── images.json
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Services.jsx
+│   │   ├── Gallery.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── styles/
+│   │   └── index.css
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── README.md
+└── .gitignore
