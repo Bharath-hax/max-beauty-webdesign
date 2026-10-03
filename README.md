@@ -1,26 +1,40 @@
-# MAX BEAUTY
+Create a complete, professional and GitHub-ready README.md file for my React + Vite project called "MAX BEAUTY".
 
-A modern and responsive luxury beauty salon website built with **React** and **Vite**.
+IMPORTANT:
+- Generate ONLY the complete README.md content.
+- Make it fully copyable and valid Markdown.
+- Do not explain the README outside the content.
+- Do not use placeholders except for the GitHub repository URL.
+- Make sure all Markdown code blocks are properly opened and closed.
+- Include all important instructions needed for a developer to understand, install, run, build and maintain the project.
 
-## ✨ Project Overview
+Project name:
+MAX BEAUTY
 
-MAX BEAUTY is a premium salon website designed with a clean, elegant and responsive interface. The website includes salon information, services, gallery, and appointment/contact sections.
+Project description:
+A modern and responsive luxury beauty salon website built with React and Vite.
 
-The design uses a warm ivory background with espresso text and champagne-gold accents to create a luxury beauty brand experience.
+Design:
+- Luxury beauty salon website
+- Warm ivory background
+- Espresso brown typography
+- Champagne-gold accents
+- Elegant and modern UI
+- Responsive design
+- Desktop, laptop, tablet and mobile support
 
-## 🛠️ Technologies Used
-
+Technology stack:
 - React
 - Vite
 - JavaScript
 - JSX
+- HTML5
 - CSS3
 - Lucide React
-- Responsive Web Design
+- JSON
 
-## 📁 Project Structure
+Project structure:
 
-```text
 MAX-BEAUTY/
 │
 ├── public/
@@ -56,6 +70,54 @@ MAX-BEAUTY/
 ├── vite.config.js
 ├── README.md
 └── .gitignore
-## how to run
- npm install
- npm run dev
+
+The README MUST contain these sections:
+
+1. # MAX BEAUTY
+   - Short professional project description.
+
+2. ## ✨ Project Overview
+   - Explain what MAX BEAUTY is.
+   - Explain the purpose of the website.
+   - Mention the luxury salon design.
+
+3. ## 🚀 Features
+   Include:
+   - Responsive design
+   - Luxury UI
+   - Responsive navigation
+   - Mobile menu
+   - Smooth scrolling
+   - Home section
+   - About section
+   - Services section
+   - Gallery section
+   - Contact section
+   - Appointment/contact form
+   - Interactive hover effects
+   - Mouse-follow 3D card effects
+   - JSON-based image configuration
+
+4. ## 🛠️ Technologies Used
+   List all technologies.
+
+5. ## 📁 Project Structure
+   Show the complete project tree using a properly closed text code block.
+
+6. ## 📋 Requirements
+   Explain that the user needs:
+   - Node.js
+   - npm
+   - Git
+
+   Include commands to check versions:
+
+   node --version
+   npm --version
+   git --version
+
+7. ## ▶️ How to Run
+
+   npm install
+   npm run dev
+   
