@@ -56,3 +56,6 @@ MAX-BEAUTY/
 ├── vite.config.js
 ├── README.md
 └── .gitignore
+## how to run
+ npm install
+ npm run dev
