@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "url": "https://images.unsplash.com/photo-1781450090585-1a511b7066d9?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=85&w=2400",
+    "source": "https://unsplash.com/photos/a-modern-hair-salon-interior-with-stylish-chairs-and-mirrors-_Fy7Kq0w6OI",
+    "alt": "Bright modern luxury hair salon interior with arched alcoves and styling chairs"
+  },
+  "about": {
+    "url": "https://images.unsplash.com/photo-1637777277435-3c44f82fd0c9?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=85&w=2000",
+    "source": "https://unsplash.com/photos/a-hair-salon-with-chairs-and-a-mirror-u-jq0g_ZdZE",
+    "alt": "Elegant white hair salon interior with mirrors and chairs"
+  },
+  "gallery1": {
+    "url": "https://images.unsplash.com/photo-1781450090585-1a511b7066d9?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=80&w=1800",
+    "source": "https://unsplash.com/photos/a-modern-hair-salon-interior-with-stylish-chairs-and-mirrors-_Fy7Kq0w6OI",
+    "alt": "Modern salon interior"
+  },
+  "gallery2": {
+    "url": "https://images.unsplash.com/photo-1675034743339-0b0747047727?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=85&w=1800",
+    "source": "https://unsplash.com/photos/a-woman-getting-her-hair-done-in-a-salon-lK8oXGycy88",
+    "alt": "Woman receiving a salon hair treatment"
+  },
+  "gallery3": {
+    "url": "https://images.unsplash.com/photo-1637777277435-3c44f82fd0c9?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=80&w=1800",
+    "source": "https://unsplash.com/photos/a-hair-salon-with-chairs-and-a-mirror-u-jq0g_ZdZE",
+    "alt": "White salon styling space"
+  },
+  "gallery4": {
+    "url": "https://images.unsplash.com/photo-1717050841123-e3b2c1d33e49?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=85&w=1800",
+    "source": "https://unsplash.com/photos/a-woman-getting-her-hair-done-in-a-salon-uGXq5msrtgY",
+    "alt": "Beauty portrait and salon styling moment"
+  },
+  "gallery5": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Hairdresser_woman.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+    "source": "https://commons.wikimedia.org/wiki/File:Hairdresser_woman.jpg",
+    "alt": "Hairdresser working with a client"
+  },
+  "gallery6": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Salon_interior.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+    "source": "https://commons.wikimedia.org/wiki/File:Salon_interior.jpg",
+    "alt": "Beauty salon interior"
+  }
+}
