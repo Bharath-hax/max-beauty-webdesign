@@ -1,61 +1,50 @@
-MAX BEAUTY
+# MAX BEAUTY
 
-A modern, elegant, and fully responsive luxury beauty salon web application built with React and Vite.
+> A modern, elegant, and fully responsive luxury beauty salon website built with React and Vite.
 
-✨ Project Overview
+---
 
-MAX BEAUTY is a digital experience designed for a high-end luxury beauty salon. The purpose of this website is to provide prospective clients with an intuitive, visually captivating, and seamless showcase of the salon's premium services, treatment philosophy, visual gallery, and booking process.
+## ✨ Project Overview
 
-Design Aesthetic & Theme
+**MAX BEAUTY** is a modern and sophisticated web application designed for a premium luxury beauty salon. It provides an immersive online experience for clients to explore services, view gallery showcases, learn about the salon, and book appointments. 
 
-Color Palette: Warm ivory background (#FDFBF7), deep espresso brown typography (#2B1E1A), and refined champagne-gold accents (#D4AF37).
+The application features a bespoke aesthetic tailored for high-end beauty brand identity:
+* **Background:** Warm Ivory (`#FAF7F2`)
+* **Typography:** Espresso Brown (`#2C221E`)
+* **Accents:** Champagne Gold (`#D4AF37`)
 
-User Interface: Tailored luxury UI featuring elegant typography, balanced negative space, smooth hover interactions, and micro-animations.
+---
 
-Responsiveness: Fully optimized across desktop monitors, laptops, tablets, and mobile devices.
+## 🚀 Features
 
-🚀 Features
+* **Responsive Design:** Fully optimized layout across desktop, laptop, tablet, and mobile devices.
+* **Luxury UI/UX:** High-end aesthetics with custom color palettes and typography.
+* **Interactive Navigation:** Smooth-scrolling page links and an adaptive mobile navigation drawer.
+* **Dynamic Page Sections:**
+  * **Home:** Captivating banner and brand highlights.
+  * **About:** Brand story, philosophy, and salon values.
+  * **Services:** Detailed service menu with pricing and descriptions.
+  * **Gallery:** Portfolio showcase rendered via dynamic JSON data.
+  * **Contact:** Interactive appointment booking and inquiry form.
+* **Interactive UI Enhancements:** Mouse-following 3D tilt card effects (`TiltCard.jsx`) and subtle hover interactions.
+* **Data-Driven Media:** Image paths and gallery configurations managed seamlessly via JSON files.
 
-📱 Fully Responsive Layout: Fluid adaptation across desktop, laptop, tablet, and mobile screens.
+---
 
-🎨 Luxury UI Aesthetic: Bespoke color palette and typography tailored for high-end beauty and wellness brands.
+## 🛠️ Technologies Used
 
-🧭 Dynamic Responsive Navigation: High-contrast header with animated desktop links and an accessible slide-out mobile menu.
+* **Frontend Framework:** React 18
+* **Build Tool:** Vite
+* **Programming Language:** JavaScript (ES6+), JSX
+* **Styling:** HTML5, CSS3 (Custom CSS variables & responsive layouts)
+* **Icons:** Lucide React
+* **Data Handling:** JSON
 
-📜 Smooth Section Scrolling: Seamless cross-page navigation and smooth anchor scrolling.
+---
 
-🏠 Home Section: Impactful hero landing experience featuring key value propositions and instant call-to-actions.
+## 📁 Project Structure
 
-🌿 About Section: Brand history, core values, and team highlight sections.
-
-💅 Services Section: Comprehensive catalog of beauty treatments, pricing tiers, and duration details.
-
-🖼️ Gallery Section: High-resolution image showcase powered by dynamic data structures.
-
-✉️ Contact & Appointment Form: Interactive contact section with integrated booking inquiries form.
-
-✨ Interactive Micro-Interactions: Custom hover states, soft scale transitions, and button feedback.
-
-🎴 Mouse-Follow 3D Card Effects: Custom TiltCard component delivering interactive perspective tilts based on cursor movement.
-
-🗂️ JSON-Based Image Configuration: Decoupled media asset management via modular JSON data files for easy maintenance and updates.
-
-🛠️ Technologies Used
-
-Core Framework: React (v18+)
-
-Build Tool / Bundler: Vite
-
-Language: JavaScript (ES6+), JSX
-
-Styling: HTML5, CSS3 (Modern CSS variables, Flexbox, CSS Grid, Transitions)
-
-Icons: Lucide React
-
-Data Architecture: Structured JSON format
-
-📁 Project Structure
-
+```text
 MAX-BEAUTY/
 │
 ├── public/
@@ -93,62 +82,19 @@ MAX-BEAUTY/
 └── .gitignore
 
 
-📋 Requirements
-
-Before getting started, ensure you have the following installed on your local environment:
-
-Node.js: v18.0.0 or higher
-
-npm: v9.0.0 or higher
-
-Git: Latest version
-
-Verify your local system setup by executing these commands in your terminal:
-
-node --version
-npm --version
-git --version
-
-
 ▶️ How to Run
-
-Follow these steps to set up and launch the development environment locally:
-
 1. Clone the Repository
-
-git clone https://github.com/your-username/MAX-BEAUTY.git
+Bash
+git clone [https://github.com/your-username/MAX-BEAUTY.git](https://github.com/your-username/MAX-BEAUTY.git)
 cd MAX-BEAUTY
-
-
 2. Install Dependencies
-
-Execute the following command to download all necessary npm packages:
-
+Bash
 npm install
-
-
 3. Start the Development Server
-
-Launch Vite's local development server:
-
+Bash
 npm run dev
+Open your browser and navigate to http://localhost:5173 to view the website live.
 
-
-Once started, open your web browser and navigate to the local server URL displayed in your terminal (typically http://localhost:5173).
-
-🛠️ Build & Maintenance Commands
-
-Production Build
-
-To create an optimized, minified production build:
-
+4. Build for Production
+Bash
 npm run build
-
-
-The compiled static assets will be output to the dist/ directory.
-
-Preview Production Build
-
-To test and preview the production build locally before deployment:
-
-npm run preview
